@@ -8,6 +8,11 @@ public class Person {
 	String firstName;
 	String lastName;
 	int    age;
+	String school;
+
+	public String getSchool(){
+		return school;
+	}
 	public String getId() {
 		return id;
 	}
